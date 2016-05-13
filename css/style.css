@@ -1,0 +1,261 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'WisdomScriptAJ';
+    src: url('../fonts/WisdomScriptAJ.eot');
+    src: local('WisdomScriptAJ'), url('../fonts/WisdomScriptAJ.woff') format('woff'), url('../fonts/WisdomScriptAJ.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.otf');
+}
+
+.container {
+    max-width: 940px;
+}
+    /*style for header items*/
+header {
+    background: no-repeat url("../img/head_bg.jpg") center !important;
+    max-height: 700px;
+    overflow: hidden;
+}
+header>div {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-family: 'WisdomScriptAJ';
+    font-size: 26px;
+    color: #fed136;
+}
+
+header .row {
+    padding-top: 35px;
+    opacity: 1 !important;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+header li {
+    align-items: flex-start;
+}
+
+header a {
+    color: #e4e4e4;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+header a:hover {
+    color: #fed136;
+    text-decoration: none;
+}
+
+.vertical-wrapper {     /*для всіх вертикальних розпорок, а саме контейнерів в центрі*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 940px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+header .vertical-wrapper {
+    padding-top: 205px;
+}
+
+.first_note {
+    margin: 0 auto;
+    font-family: DroidSerif;
+    font-style: italic;
+    font-size: 40px;
+    color: #fff;
+}
+.second_note {
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button button {
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fed136;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 25px 50px;
+    margin-top: 30px;
+}
+.button button:hover {
+    background-color: #9d9d9d;
+    color: #000000;
+}
+/*header end*/
+
+/*section styles*/
+.article {
+    width: 100%;
+}
+/*services styles*/
+.services {
+    background-color: #fff;
+}
+.head_note {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.head {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.note {
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    text-align: center;
+    color: #777777;
+}
+
+.content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.content button {
+    height: 73px;
+    width: 73px;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+}
+.img-circle>.fa {
+    color: #fed136;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    font-size: 44px;
+}
+
+article h3 {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+}
+
+.content>span {
+    text-align: center;
+}
+
+/*end services styles*/
+
+/*portfolio styles*/
+.portfolio, .team {
+    background-color: #f7f7f7;
+}
+
+.portfolio .item {
+    background-color: #ffffff;
+}
+
+.item h3, .item h5 {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+/*end portfolio styles*/
+
+/*about us styles*/
+
+.about_us .row {
+    padding-bottom: 92px;
+}
+
+.about_us .row:last-child {
+    padding-bottom: 0;
+}
+
+/*end about us styles*/
+
+/*team styles*/
+
+.team h4 {
+    font-size: 16px;
+    font-family: Montserrat-Bold;
+}
+.team h4, .team h5 {
+    text-align: center;
+}
+
+.team img {
+    align-self: center;
+}
+/* end team styles*/
+
+/*logos styles*/
+.logos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/*end logos styles*/
+
+/*footer styles*/
+
+footer {
+    background: url("../img/footer_bg.jpg") center;
+}
+footer .head {
+    color: #ffffff;
+}
+footer .note {
+    color: #777777;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    margin-bottom: 30px;
+}
+footer textarea {
+    height: 138px;
+}
+
+.fa-stack-1x {
+    color: #ffffff;
+}
+#twitter:hover {
+    color: blue;
+}
